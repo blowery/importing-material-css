@@ -12,6 +12,7 @@
     "@babel/polyfill": "^7.0.0-beta.53",
     "@material/button": "^0.37.1",
     "@material/card": "^0.37.1",
+    "@material/react-button": "^0.3.0",
     "@material/ripple": "^0.37.1",
     "node-sass": "^4.9.2",
     "webpack": "^4.16.1",
