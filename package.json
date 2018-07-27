@@ -1,0 +1,28 @@
+{
+  "name": "webpack-4-mwc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Lowery <ben@blowery.org> (http://b19y.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0-beta.53",
+    "@material/button": "^0.37.1",
+    "@material/card": "^0.37.1",
+    "@material/ripple": "^0.37.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.53",
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0"
+  }
+}
