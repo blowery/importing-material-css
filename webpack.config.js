@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: 'development',
+  mode: "development",
   entry: {
     index: path.join(__dirname, "src", "index.js")
   },
@@ -9,17 +9,20 @@ module.exports = {
     path: path.join(__dirname, "dist"),
     filename: "[name].js"
   },
+  resolve: {
+    extensions: [".js", ".jsx", ".scss" ]
+  },
   module: {
     rules: [
       {
-        test: /\.scss/,
+        test: /\.scss$/,
         use: [
           { loader: "style-loader" },
           { loader: "css-loader" },
           {
             loader: "sass-loader",
             options: {
-              includePath: ["node_modules"]
+              includePaths: ["node_modules"]
             }
           }
         ]
