@@ -13,6 +13,7 @@
     "@material/button": "^0.37.1",
     "@material/card": "^0.37.1",
     "@material/ripple": "^0.37.1",
+    "node-sass": "^4.9.2",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8"
   },
